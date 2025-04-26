@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar Booking Agent</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Calendar Assistant</h1>
+    </header>
+
+    <div class="input-area">
+      <textarea id="query-input" placeholder="Enter your calendar request (e.g. 'Schedule a meeting with John tomorrow at 3pm for 1 hour')"></textarea>
+      <button id="submit-btn">Process Request</button>
+    </div>
+
+    <div class="status-area">
+      <h2>Status</h2>
+      <div id="status-container">
+        <p id="status-message">Ready to process your request.</p>
+        <div id="loading-spinner" class="hidden"></div>
+      </div>
+    </div>
+
+    <div class="result-area hidden" id="result-area">
+      <h2>Extracted Information</h2>
+      <div id="event-details"></div>
+    </div>
+
+    <div class="recent-requests">
+      <h2>Recent Requests</h2>
+      <ul id="history-list"></ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 

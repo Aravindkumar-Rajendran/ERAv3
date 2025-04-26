@@ -1,0 +1,112 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 400px;
+    padding: 15px;
+}
+
+h1 {
+    color: #1a73e8;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.input-section {
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0d62d1;
+}
+
+.status-section {
+    margin-bottom: 15px;
+}
+
+.status {
+    padding: 10px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    color: #555;
+    font-size: 14px;
+}
+
+.examples-section {
+    margin-bottom: 15px;
+}
+
+.examples-section h2 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.examples-section ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.examples-section li {
+    background-color: #f1f1f1;
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #555;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.examples-section li:hover {
+    background-color: #e7e7e7;
+}
+
+.settings-section {
+    text-align: center;
+}
+
+#settingsButton {
+    background-color: #f1f1f1;
+    color: #555;
+    width: auto;
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+#settingsButton:hover {
+    background-color: #e7e7e7;
+} 

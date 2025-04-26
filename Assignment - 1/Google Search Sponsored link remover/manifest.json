@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Google Sponsored Link Remover",
+  "version": "1.0",
+  "description": "Removes sponsored links from Google search results",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/search*"],
+      "js": ["content.js"]
+    }
+  ]
+}

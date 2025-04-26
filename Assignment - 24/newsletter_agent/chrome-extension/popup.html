@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calendar Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calendar Assistant</h1>
+        <div class="input-section">
+            <textarea id="commandInput" placeholder="Try: 'Schedule a meeting with John tomorrow at 3pm for 1 hour'"></textarea>
+            <button id="executeButton">Create Event</button>
+        </div>
+        <div class="status-section">
+            <div id="status" class="status">Ready</div>
+        </div>
+        <div class="examples-section">
+            <h2>Example Commands</h2>
+            <ul>
+                <li>Schedule a team meeting tomorrow at 2pm for 30 minutes</li>
+                <li>Create a doctor's appointment on Friday at 10am</li>
+                <li>Cancel my meeting with Sarah on Thursday</li>
+                <li>Move my 3pm meeting to 4pm</li>
+            </ul>
+        </div>
+        <div class="settings-section">
+            <button id="settingsButton">Settings</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 

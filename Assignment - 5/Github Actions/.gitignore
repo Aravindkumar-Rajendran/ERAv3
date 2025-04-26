@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+
+# Data
+data/
+
+# Model checkpoints
+*.pth
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store 

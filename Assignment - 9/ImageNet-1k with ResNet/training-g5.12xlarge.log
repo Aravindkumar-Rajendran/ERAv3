@@ -1,0 +1,288 @@
+2024-12-31 09:25:05,891 - resnet_50 - INFO - Training - Epoch: 0, Batch: [100/1635], Loss: 7.0865, Accuracy: 0.10%, LR: 0.088007
+2024-12-31 09:26:54,512 - resnet_50 - INFO - Training - Epoch: 0, Batch: [200/1635], Loss: 6.9947, Accuracy: 0.12%, LR: 0.088028
+2024-12-31 09:28:43,398 - resnet_50 - INFO - Training - Epoch: 0, Batch: [300/1635], Loss: 6.9468, Accuracy: 0.18%, LR: 0.088064
+2024-12-31 09:30:32,785 - resnet_50 - INFO - Training - Epoch: 0, Batch: [400/1635], Loss: 6.8892, Accuracy: 0.25%, LR: 0.088114
+2024-12-31 09:32:22,838 - resnet_50 - INFO - Training - Epoch: 0, Batch: [500/1635], Loss: 6.8151, Accuracy: 0.37%, LR: 0.088178
+2024-12-31 09:34:12,609 - resnet_50 - INFO - Training - Epoch: 0, Batch: [600/1635], Loss: 6.7326, Accuracy: 0.53%, LR: 0.088256
+2024-12-31 09:36:02,551 - resnet_50 - INFO - Training - Epoch: 0, Batch: [700/1635], Loss: 6.6447, Accuracy: 0.73%, LR: 0.088349
+2024-12-31 09:37:52,541 - resnet_50 - INFO - Training - Epoch: 0, Batch: [800/1635], Loss: 6.5531, Accuracy: 0.99%, LR: 0.088455
+2024-12-31 09:39:42,651 - resnet_50 - INFO - Training - Epoch: 0, Batch: [900/1635], Loss: 6.4623, Accuracy: 1.29%, LR: 0.088576
+2024-12-31 09:41:32,033 - resnet_50 - INFO - Training - Epoch: 0, Batch: [1000/1635], Loss: 6.3719, Accuracy: 1.65%, LR: 0.088711
+2024-12-31 09:43:22,007 - resnet_50 - INFO - Training - Epoch: 0, Batch: [1100/1635], Loss: 6.2847, Accuracy: 2.03%, LR: 0.088861
+2024-12-31 09:45:12,129 - resnet_50 - INFO - Training - Epoch: 0, Batch: [1200/1635], Loss: 6.2002, Accuracy: 2.43%, LR: 0.089024
+2024-12-31 09:47:01,654 - resnet_50 - INFO - Training - Epoch: 0, Batch: [1300/1635], Loss: 6.1189, Accuracy: 2.84%, LR: 0.089202
+2024-12-31 09:48:51,580 - resnet_50 - INFO - Training - Epoch: 0, Batch: [1400/1635], Loss: 6.0397, Accuracy: 3.30%, LR: 0.089394
+2024-12-31 09:50:41,638 - resnet_50 - INFO - Training - Epoch: 0, Batch: [1500/1635], Loss: 5.9633, Accuracy: 3.76%, LR: 0.089600
+2024-12-31 09:52:31,131 - resnet_50 - INFO - Training - Epoch: 0, Batch: [1600/1635], Loss: 5.8902, Accuracy: 4.22%, LR: 0.089821
+2024-12-31 09:53:09,270 - resnet_50 - INFO - Epoch 0 Summary - Training Loss: 5.8648, Training Accuracy: 4.38%, Time: 1841.04s
+2024-12-31 09:53:09,734 - resnet_50 - INFO - Checkpoint saved - Epoch: 0, Path: checkpoints/resnet_50/model_0.pth
+2024-12-31 09:54:39,080 - resnet_50 - INFO - Validation - Epoch: 1, Loss: 4.8036, Accuracy: 10.38%, Top-5 Accuracy: 26.76%
+2024-12-31 09:56:50,491 - resnet_50 - INFO - Training - Epoch: 1, Batch: [100/1635], Loss: 4.6349, Accuracy: 12.96%, LR: 0.090141
+2024-12-31 09:58:40,765 - resnet_50 - INFO - Training - Epoch: 1, Batch: [200/1635], Loss: 4.5752, Accuracy: 13.64%, LR: 0.090395
+2024-12-31 10:00:30,753 - resnet_50 - INFO - Training - Epoch: 1, Batch: [300/1635], Loss: 4.5220, Accuracy: 14.29%, LR: 0.090662
+2024-12-31 10:02:19,831 - resnet_50 - INFO - Training - Epoch: 1, Batch: [400/1635], Loss: 4.4739, Accuracy: 14.88%, LR: 0.090945
+2024-12-31 10:04:09,108 - resnet_50 - INFO - Training - Epoch: 1, Batch: [500/1635], Loss: 4.4282, Accuracy: 15.43%, LR: 0.091241
+2024-12-31 10:05:58,798 - resnet_50 - INFO - Training - Epoch: 1, Batch: [600/1635], Loss: 4.3847, Accuracy: 15.98%, LR: 0.091551
+2024-12-31 10:07:48,060 - resnet_50 - INFO - Training - Epoch: 1, Batch: [700/1635], Loss: 4.3410, Accuracy: 16.53%, LR: 0.091876
+2024-12-31 10:09:37,464 - resnet_50 - INFO - Training - Epoch: 1, Batch: [800/1635], Loss: 4.3017, Accuracy: 17.03%, LR: 0.092214
+2024-12-31 10:11:26,972 - resnet_50 - INFO - Training - Epoch: 1, Batch: [900/1635], Loss: 4.2642, Accuracy: 17.50%, LR: 0.092567
+2024-12-31 10:13:16,255 - resnet_50 - INFO - Training - Epoch: 1, Batch: [1000/1635], Loss: 4.2281, Accuracy: 17.97%, LR: 0.092934
+2024-12-31 10:15:06,459 - resnet_50 - INFO - Training - Epoch: 1, Batch: [1100/1635], Loss: 4.1917, Accuracy: 18.46%, LR: 0.093315
+2024-12-31 10:16:56,110 - resnet_50 - INFO - Training - Epoch: 1, Batch: [1200/1635], Loss: 4.1588, Accuracy: 18.91%, LR: 0.093710
+2024-12-31 10:18:45,368 - resnet_50 - INFO - Training - Epoch: 1, Batch: [1300/1635], Loss: 4.1249, Accuracy: 19.36%, LR: 0.094120
+2024-12-31 10:20:34,637 - resnet_50 - INFO - Training - Epoch: 1, Batch: [1400/1635], Loss: 4.0928, Accuracy: 19.80%, LR: 0.094543
+2024-12-31 10:22:24,773 - resnet_50 - INFO - Training - Epoch: 1, Batch: [1500/1635], Loss: 4.0613, Accuracy: 20.24%, LR: 0.094981
+2024-12-31 10:24:14,807 - resnet_50 - INFO - Training - Epoch: 1, Batch: [1600/1635], Loss: 4.0315, Accuracy: 20.66%, LR: 0.095432
+2024-12-31 10:24:53,168 - resnet_50 - INFO - Epoch 1 Summary - Training Loss: 4.0221, Training Accuracy: 20.78%, Time: 1814.08s
+2024-12-31 10:24:53,646 - resnet_50 - INFO - Checkpoint saved - Epoch: 1, Path: checkpoints/resnet_50/model_1.pth
+2024-12-31 10:26:10,889 - resnet_50 - INFO - Validation - Epoch: 2, Loss: 3.5044, Accuracy: 26.40%, Top-5 Accuracy: 51.85%
+2024-12-31 10:28:24,863 - resnet_50 - INFO - Training - Epoch: 2, Batch: [100/1635], Loss: 3.5238, Accuracy: 27.69%, LR: 0.096064
+2024-12-31 10:30:14,623 - resnet_50 - INFO - Training - Epoch: 2, Batch: [200/1635], Loss: 3.4898, Accuracy: 28.27%, LR: 0.096549
+2024-12-31 10:32:04,273 - resnet_50 - INFO - Training - Epoch: 2, Batch: [300/1635], Loss: 3.4716, Accuracy: 28.54%, LR: 0.097047
+2024-12-31 10:33:53,833 - resnet_50 - INFO - Training - Epoch: 2, Batch: [400/1635], Loss: 3.4488, Accuracy: 28.91%, LR: 0.097560
+2024-12-31 10:35:43,507 - resnet_50 - INFO - Training - Epoch: 2, Batch: [500/1635], Loss: 3.4312, Accuracy: 29.20%, LR: 0.098086
+2024-12-31 10:37:33,385 - resnet_50 - INFO - Training - Epoch: 2, Batch: [600/1635], Loss: 3.4132, Accuracy: 29.48%, LR: 0.098627
+2024-12-31 10:39:23,248 - resnet_50 - INFO - Training - Epoch: 2, Batch: [700/1635], Loss: 3.3967, Accuracy: 29.70%, LR: 0.099182
+2024-12-31 10:41:13,102 - resnet_50 - INFO - Training - Epoch: 2, Batch: [800/1635], Loss: 3.3807, Accuracy: 29.95%, LR: 0.099750
+2024-12-31 10:43:02,937 - resnet_50 - INFO - Training - Epoch: 2, Batch: [900/1635], Loss: 3.3641, Accuracy: 30.22%, LR: 0.100333
+2024-12-31 10:44:52,971 - resnet_50 - INFO - Training - Epoch: 2, Batch: [1000/1635], Loss: 3.3487, Accuracy: 30.48%, LR: 0.100929
+2024-12-31 10:46:43,078 - resnet_50 - INFO - Training - Epoch: 2, Batch: [1100/1635], Loss: 3.3335, Accuracy: 30.74%, LR: 0.101540
+2024-12-31 10:48:32,462 - resnet_50 - INFO - Training - Epoch: 2, Batch: [1200/1635], Loss: 3.3176, Accuracy: 31.01%, LR: 0.102164
+2024-12-31 10:50:22,150 - resnet_50 - INFO - Training - Epoch: 2, Batch: [1300/1635], Loss: 3.3038, Accuracy: 31.23%, LR: 0.102802
+2024-12-31 10:52:11,631 - resnet_50 - INFO - Training - Epoch: 2, Batch: [1400/1635], Loss: 3.2915, Accuracy: 31.42%, LR: 0.103454
+2024-12-31 10:54:01,379 - resnet_50 - INFO - Training - Epoch: 2, Batch: [1500/1635], Loss: 3.2782, Accuracy: 31.65%, LR: 0.104120
+2024-12-31 10:55:50,797 - resnet_50 - INFO - Training - Epoch: 2, Batch: [1600/1635], Loss: 3.2657, Accuracy: 31.85%, LR: 0.104800
+2024-12-31 10:56:28,916 - resnet_50 - INFO - Epoch 2 Summary - Training Loss: 3.2611, Training Accuracy: 31.93%, Time: 1818.03s
+2024-12-31 10:56:29,371 - resnet_50 - INFO - Checkpoint saved - Epoch: 2, Path: checkpoints/resnet_50/model_2.pth
+2024-12-31 10:57:45,290 - resnet_50 - INFO - Validation - Epoch: 3, Loss: 3.0480, Accuracy: 34.20%, Top-5 Accuracy: 60.83%
+2024-12-31 10:59:59,430 - resnet_50 - INFO - Training - Epoch: 3, Batch: [100/1635], Loss: 3.0137, Accuracy: 35.84%, LR: 0.105740
+2024-12-31 11:01:48,420 - resnet_50 - INFO - Training - Epoch: 3, Batch: [200/1635], Loss: 2.9990, Accuracy: 36.17%, LR: 0.106452
+2024-12-31 11:03:37,563 - resnet_50 - INFO - Training - Epoch: 3, Batch: [300/1635], Loss: 2.9940, Accuracy: 36.12%, LR: 0.107178
+2024-12-31 11:05:27,472 - resnet_50 - INFO - Training - Epoch: 3, Batch: [400/1635], Loss: 2.9933, Accuracy: 36.21%, LR: 0.107918
+2024-12-31 11:07:16,393 - resnet_50 - INFO - Training - Epoch: 3, Batch: [500/1635], Loss: 2.9873, Accuracy: 36.30%, LR: 0.108672
+2024-12-31 11:09:06,054 - resnet_50 - INFO - Training - Epoch: 3, Batch: [600/1635], Loss: 2.9783, Accuracy: 36.48%, LR: 0.109440
+2024-12-31 11:10:55,181 - resnet_50 - INFO - Training - Epoch: 3, Batch: [700/1635], Loss: 2.9721, Accuracy: 36.60%, LR: 0.110221
+2024-12-31 11:12:44,402 - resnet_50 - INFO - Training - Epoch: 3, Batch: [800/1635], Loss: 2.9649, Accuracy: 36.73%, LR: 0.111016
+2024-12-31 11:14:33,980 - resnet_50 - INFO - Training - Epoch: 3, Batch: [900/1635], Loss: 2.9574, Accuracy: 36.85%, LR: 0.111825
+2024-12-31 11:16:22,926 - resnet_50 - INFO - Training - Epoch: 3, Batch: [1000/1635], Loss: 2.9517, Accuracy: 36.97%, LR: 0.112647
+2024-12-31 11:18:12,959 - resnet_50 - INFO - Training - Epoch: 3, Batch: [1100/1635], Loss: 2.9452, Accuracy: 37.10%, LR: 0.113483
+2024-12-31 11:20:02,521 - resnet_50 - INFO - Training - Epoch: 3, Batch: [1200/1635], Loss: 2.9386, Accuracy: 37.21%, LR: 0.114333
+2024-12-31 11:21:52,215 - resnet_50 - INFO - Training - Epoch: 3, Batch: [1300/1635], Loss: 2.9318, Accuracy: 37.31%, LR: 0.115196
+2024-12-31 11:23:41,705 - resnet_50 - INFO - Training - Epoch: 3, Batch: [1400/1635], Loss: 2.9279, Accuracy: 37.39%, LR: 0.116073
+2024-12-31 11:25:31,083 - resnet_50 - INFO - Training - Epoch: 3, Batch: [1500/1635], Loss: 2.9220, Accuracy: 37.50%, LR: 0.116963
+2024-12-31 11:27:20,840 - resnet_50 - INFO - Training - Epoch: 3, Batch: [1600/1635], Loss: 2.9162, Accuracy: 37.61%, LR: 0.117867
+2024-12-31 11:27:59,106 - resnet_50 - INFO - Epoch 3 Summary - Training Loss: 2.9146, Training Accuracy: 37.64%, Time: 1813.81s
+2024-12-31 11:27:59,574 - resnet_50 - INFO - Checkpoint saved - Epoch: 3, Path: checkpoints/resnet_50/model_3.pth
+2024-12-31 11:29:15,313 - resnet_50 - INFO - Validation - Epoch: 4, Loss: 2.7821, Accuracy: 38.73%, Top-5 Accuracy: 65.69%
+2024-12-31 11:31:28,263 - resnet_50 - INFO - Training - Epoch: 4, Batch: [100/1635], Loss: 2.7990, Accuracy: 39.65%, LR: 0.119109
+2024-12-31 11:33:17,387 - resnet_50 - INFO - Training - Epoch: 4, Batch: [200/1635], Loss: 2.7795, Accuracy: 39.94%, LR: 0.120045
+2024-12-31 11:35:07,416 - resnet_50 - INFO - Training - Epoch: 4, Batch: [300/1635], Loss: 2.7727, Accuracy: 40.07%, LR: 0.120994
+2024-12-31 11:36:57,338 - resnet_50 - INFO - Training - Epoch: 4, Batch: [400/1635], Loss: 2.7724, Accuracy: 40.13%, LR: 0.121957
+2024-12-31 11:38:46,785 - resnet_50 - INFO - Training - Epoch: 4, Batch: [500/1635], Loss: 2.7683, Accuracy: 40.21%, LR: 0.122933
+2024-12-31 11:40:36,720 - resnet_50 - INFO - Training - Epoch: 4, Batch: [600/1635], Loss: 2.7646, Accuracy: 40.28%, LR: 0.123923
+2024-12-31 11:42:26,584 - resnet_50 - INFO - Training - Epoch: 4, Batch: [700/1635], Loss: 2.7621, Accuracy: 40.31%, LR: 0.124926
+2024-12-31 11:44:16,368 - resnet_50 - INFO - Training - Epoch: 4, Batch: [800/1635], Loss: 2.7590, Accuracy: 40.34%, LR: 0.125942
+2024-12-31 11:46:05,956 - resnet_50 - INFO - Training - Epoch: 4, Batch: [900/1635], Loss: 2.7572, Accuracy: 40.39%, LR: 0.126972
+2024-12-31 11:47:55,287 - resnet_50 - INFO - Training - Epoch: 4, Batch: [1000/1635], Loss: 2.7537, Accuracy: 40.45%, LR: 0.128015
+2024-12-31 11:49:44,468 - resnet_50 - INFO - Training - Epoch: 4, Batch: [1100/1635], Loss: 2.7503, Accuracy: 40.52%, LR: 0.129071
+2024-12-31 11:51:34,081 - resnet_50 - INFO - Training - Epoch: 4, Batch: [1200/1635], Loss: 2.7477, Accuracy: 40.56%, LR: 0.130141
+2024-12-31 11:53:23,176 - resnet_50 - INFO - Training - Epoch: 4, Batch: [1300/1635], Loss: 2.7455, Accuracy: 40.60%, LR: 0.131224
+2024-12-31 11:55:13,029 - resnet_50 - INFO - Training - Epoch: 4, Batch: [1400/1635], Loss: 2.7424, Accuracy: 40.66%, LR: 0.132320
+2024-12-31 11:57:02,375 - resnet_50 - INFO - Training - Epoch: 4, Batch: [1500/1635], Loss: 2.7406, Accuracy: 40.68%, LR: 0.133430
+2024-12-31 11:58:52,162 - resnet_50 - INFO - Training - Epoch: 4, Batch: [1600/1635], Loss: 2.7379, Accuracy: 40.74%, LR: 0.134552
+2024-12-31 11:59:30,456 - resnet_50 - INFO - Epoch 4 Summary - Training Loss: 2.7368, Training Accuracy: 40.75%, Time: 1815.14s
+2024-12-31 11:59:30,918 - resnet_50 - INFO - Checkpoint saved - Epoch: 4, Path: checkpoints/resnet_50/model_4.pth
+2024-12-31 12:00:48,006 - resnet_50 - INFO - Validation - Epoch: 5, Loss: 2.5639, Accuracy: 42.40%, Top-5 Accuracy: 69.31%
+2024-12-31 12:02:58,338 - resnet_50 - INFO - Training - Epoch: 5, Batch: [100/1635], Loss: 2.6639, Accuracy: 41.95%, LR: 0.136089
+2024-12-31 12:04:47,014 - resnet_50 - INFO - Training - Epoch: 5, Batch: [200/1635], Loss: 2.6614, Accuracy: 42.13%, LR: 0.137242
+2024-12-31 12:06:36,748 - resnet_50 - INFO - Training - Epoch: 5, Batch: [300/1635], Loss: 2.6641, Accuracy: 42.03%, LR: 0.138409
+2024-12-31 12:08:26,073 - resnet_50 - INFO - Training - Epoch: 5, Batch: [400/1635], Loss: 2.6615, Accuracy: 42.06%, LR: 0.139588
+2024-12-31 12:10:15,043 - resnet_50 - INFO - Training - Epoch: 5, Batch: [500/1635], Loss: 2.6569, Accuracy: 42.15%, LR: 0.140781
+2024-12-31 12:12:04,594 - resnet_50 - INFO - Training - Epoch: 5, Batch: [600/1635], Loss: 2.6532, Accuracy: 42.22%, LR: 0.141987
+2024-12-31 12:13:54,415 - resnet_50 - INFO - Training - Epoch: 5, Batch: [700/1635], Loss: 2.6528, Accuracy: 42.25%, LR: 0.143205
+2024-12-31 12:15:43,844 - resnet_50 - INFO - Training - Epoch: 5, Batch: [800/1635], Loss: 2.6521, Accuracy: 42.23%, LR: 0.144437
+2024-12-31 12:17:33,516 - resnet_50 - INFO - Training - Epoch: 5, Batch: [900/1635], Loss: 2.6528, Accuracy: 42.22%, LR: 0.145681
+2024-12-31 12:19:23,386 - resnet_50 - INFO - Training - Epoch: 5, Batch: [1000/1635], Loss: 2.6524, Accuracy: 42.25%, LR: 0.146939
+2024-12-31 12:21:13,281 - resnet_50 - INFO - Training - Epoch: 5, Batch: [1100/1635], Loss: 2.6513, Accuracy: 42.28%, LR: 0.148209
+2024-12-31 12:23:03,082 - resnet_50 - INFO - Training - Epoch: 5, Batch: [1200/1635], Loss: 2.6499, Accuracy: 42.30%, LR: 0.149492
+2024-12-31 12:24:52,972 - resnet_50 - INFO - Training - Epoch: 5, Batch: [1300/1635], Loss: 2.6469, Accuracy: 42.35%, LR: 0.150788
+2024-12-31 12:26:42,915 - resnet_50 - INFO - Training - Epoch: 5, Batch: [1400/1635], Loss: 2.6450, Accuracy: 42.37%, LR: 0.152097
+2024-12-31 12:28:32,383 - resnet_50 - INFO - Training - Epoch: 5, Batch: [1500/1635], Loss: 2.6428, Accuracy: 42.40%, LR: 0.153418
+2024-12-31 12:30:21,287 - resnet_50 - INFO - Training - Epoch: 5, Batch: [1600/1635], Loss: 2.6415, Accuracy: 42.44%, LR: 0.154753
+2024-12-31 12:30:59,878 - resnet_50 - INFO - Epoch 5 Summary - Training Loss: 2.6406, Training Accuracy: 42.46%, Time: 1811.87s
+2024-12-31 12:31:00,336 - resnet_50 - INFO - Checkpoint saved - Epoch: 5, Path: checkpoints/resnet_50/model_5.pth
+2024-12-31 12:32:16,627 - resnet_50 - INFO - Validation - Epoch: 6, Loss: 2.4759, Accuracy: 44.28%, Top-5 Accuracy: 70.52%
+2024-12-31 12:34:26,128 - resnet_50 - INFO - Training - Epoch: 6, Batch: [100/1635], Loss: 2.5989, Accuracy: 43.14%, LR: 0.156574
+2024-12-31 12:36:15,791 - resnet_50 - INFO - Training - Epoch: 6, Batch: [200/1635], Loss: 2.5793, Accuracy: 43.54%, LR: 0.157938
+2024-12-31 12:38:05,183 - resnet_50 - INFO - Training - Epoch: 6, Batch: [300/1635], Loss: 2.5799, Accuracy: 43.52%, LR: 0.159315
+2024-12-31 12:39:54,301 - resnet_50 - INFO - Training - Epoch: 6, Batch: [400/1635], Loss: 2.5810, Accuracy: 43.50%, LR: 0.160704
+2024-12-31 12:41:43,533 - resnet_50 - INFO - Training - Epoch: 6, Batch: [500/1635], Loss: 2.5824, Accuracy: 43.44%, LR: 0.162106
+2024-12-31 12:43:32,467 - resnet_50 - INFO - Training - Epoch: 6, Batch: [600/1635], Loss: 2.5829, Accuracy: 43.44%, LR: 0.163520
+2024-12-31 12:45:21,799 - resnet_50 - INFO - Training - Epoch: 6, Batch: [700/1635], Loss: 2.5824, Accuracy: 43.46%, LR: 0.164947
+2024-12-31 12:47:11,538 - resnet_50 - INFO - Training - Epoch: 6, Batch: [800/1635], Loss: 2.5830, Accuracy: 43.45%, LR: 0.166386
+2024-12-31 12:48:59,692 - resnet_50 - INFO - Training - Epoch: 6, Batch: [900/1635], Loss: 2.5833, Accuracy: 43.45%, LR: 0.167837
+2024-12-31 12:50:48,666 - resnet_50 - INFO - Training - Epoch: 6, Batch: [1000/1635], Loss: 2.5832, Accuracy: 43.43%, LR: 0.169301
+2024-12-31 12:52:38,336 - resnet_50 - INFO - Training - Epoch: 6, Batch: [1100/1635], Loss: 2.5833, Accuracy: 43.45%, LR: 0.170778
+2024-12-31 12:54:27,934 - resnet_50 - INFO - Training - Epoch: 6, Batch: [1200/1635], Loss: 2.5828, Accuracy: 43.47%, LR: 0.172266
+2024-12-31 12:56:17,632 - resnet_50 - INFO - Training - Epoch: 6, Batch: [1300/1635], Loss: 2.5823, Accuracy: 43.48%, LR: 0.173767
+2024-12-31 12:58:06,781 - resnet_50 - INFO - Training - Epoch: 6, Batch: [1400/1635], Loss: 2.5824, Accuracy: 43.48%, LR: 0.175281
+2024-12-31 12:59:56,340 - resnet_50 - INFO - Training - Epoch: 6, Batch: [1500/1635], Loss: 2.5815, Accuracy: 43.50%, LR: 0.176806
+2024-12-31 13:01:46,104 - resnet_50 - INFO - Training - Epoch: 6, Batch: [1600/1635], Loss: 2.5816, Accuracy: 43.50%, LR: 0.178344
+2024-12-31 13:02:24,318 - resnet_50 - INFO - Epoch 6 Summary - Training Loss: 2.5810, Training Accuracy: 43.50%, Time: 1807.69s
+2024-12-31 13:02:24,786 - resnet_50 - INFO - Checkpoint saved - Epoch: 6, Path: checkpoints/resnet_50/model_6.pth
+2024-12-31 13:03:41,768 - resnet_50 - INFO - Validation - Epoch: 7, Loss: 2.5977, Accuracy: 42.57%, Top-5 Accuracy: 68.91%
+2024-12-31 13:05:56,435 - resnet_50 - INFO - Training - Epoch: 7, Batch: [100/1635], Loss: 2.5552, Accuracy: 44.08%, LR: 0.180439
+2024-12-31 13:07:45,756 - resnet_50 - INFO - Training - Epoch: 7, Batch: [200/1635], Loss: 2.5426, Accuracy: 44.22%, LR: 0.182005
+2024-12-31 13:09:35,220 - resnet_50 - INFO - Training - Epoch: 7, Batch: [300/1635], Loss: 2.5408, Accuracy: 44.24%, LR: 0.183583
+2024-12-31 13:11:25,026 - resnet_50 - INFO - Training - Epoch: 7, Batch: [400/1635], Loss: 2.5409, Accuracy: 44.22%, LR: 0.185173
+2024-12-31 13:13:14,745 - resnet_50 - INFO - Training - Epoch: 7, Batch: [500/1635], Loss: 2.5452, Accuracy: 44.12%, LR: 0.186775
+2024-12-31 13:15:04,193 - resnet_50 - INFO - Training - Epoch: 7, Batch: [600/1635], Loss: 2.5451, Accuracy: 44.10%, LR: 0.188389
+2024-12-31 13:16:53,615 - resnet_50 - INFO - Training - Epoch: 7, Batch: [700/1635], Loss: 2.5457, Accuracy: 44.10%, LR: 0.190015
+2024-12-31 13:18:43,398 - resnet_50 - INFO - Training - Epoch: 7, Batch: [800/1635], Loss: 2.5483, Accuracy: 44.04%, LR: 0.191653
+2024-12-31 13:20:32,566 - resnet_50 - INFO - Training - Epoch: 7, Batch: [900/1635], Loss: 2.5490, Accuracy: 44.02%, LR: 0.193303
+2024-12-31 13:22:22,604 - resnet_50 - INFO - Training - Epoch: 7, Batch: [1000/1635], Loss: 2.5484, Accuracy: 44.03%, LR: 0.194965
+2024-12-31 13:24:12,469 - resnet_50 - INFO - Training - Epoch: 7, Batch: [1100/1635], Loss: 2.5492, Accuracy: 44.02%, LR: 0.196638
+2024-12-31 13:26:02,287 - resnet_50 - INFO - Training - Epoch: 7, Batch: [1200/1635], Loss: 2.5487, Accuracy: 44.04%, LR: 0.198323
+2024-12-31 13:27:51,052 - resnet_50 - INFO - Training - Epoch: 7, Batch: [1300/1635], Loss: 2.5483, Accuracy: 44.05%, LR: 0.200020
+2024-12-31 13:29:40,420 - resnet_50 - INFO - Training - Epoch: 7, Batch: [1400/1635], Loss: 2.5486, Accuracy: 44.05%, LR: 0.201728
+2024-12-31 13:31:30,112 - resnet_50 - INFO - Training - Epoch: 7, Batch: [1500/1635], Loss: 2.5493, Accuracy: 44.04%, LR: 0.203448
+2024-12-31 13:33:18,661 - resnet_50 - INFO - Training - Epoch: 7, Batch: [1600/1635], Loss: 2.5488, Accuracy: 44.05%, LR: 0.205180
+2024-12-31 13:33:56,850 - resnet_50 - INFO - Epoch 7 Summary - Training Loss: 2.5492, Training Accuracy: 44.04%, Time: 1815.08s
+2024-12-31 13:33:57,320 - resnet_50 - INFO - Checkpoint saved - Epoch: 7, Path: checkpoints/resnet_50/model_7.pth
+2024-12-31 13:35:12,846 - resnet_50 - INFO - Validation - Epoch: 8, Loss: 2.6787, Accuracy: 40.85%, Top-5 Accuracy: 67.58%
+2024-12-31 13:37:21,549 - resnet_50 - INFO - Training - Epoch: 8, Batch: [100/1635], Loss: 2.5389, Accuracy: 44.17%, LR: 0.207535
+2024-12-31 13:39:10,275 - resnet_50 - INFO - Training - Epoch: 8, Batch: [200/1635], Loss: 2.5282, Accuracy: 44.25%, LR: 0.209294
+2024-12-31 13:41:00,046 - resnet_50 - INFO - Training - Epoch: 8, Batch: [300/1635], Loss: 2.5263, Accuracy: 44.28%, LR: 0.211064
+2024-12-31 13:42:50,153 - resnet_50 - INFO - Training - Epoch: 8, Batch: [400/1635], Loss: 2.5265, Accuracy: 44.26%, LR: 0.212845
+2024-12-31 13:44:38,451 - resnet_50 - INFO - Training - Epoch: 8, Batch: [500/1635], Loss: 2.5273, Accuracy: 44.30%, LR: 0.214638
+2024-12-31 13:46:27,512 - resnet_50 - INFO - Training - Epoch: 8, Batch: [600/1635], Loss: 2.5256, Accuracy: 44.35%, LR: 0.216442
+2024-12-31 13:48:17,342 - resnet_50 - INFO - Training - Epoch: 8, Batch: [700/1635], Loss: 2.5251, Accuracy: 44.33%, LR: 0.218257
+2024-12-31 13:50:06,925 - resnet_50 - INFO - Training - Epoch: 8, Batch: [800/1635], Loss: 2.5268, Accuracy: 44.29%, LR: 0.220084
+2024-12-31 13:51:56,428 - resnet_50 - INFO - Training - Epoch: 8, Batch: [900/1635], Loss: 2.5273, Accuracy: 44.30%, LR: 0.221921
+2024-12-31 13:53:46,361 - resnet_50 - INFO - Training - Epoch: 8, Batch: [1000/1635], Loss: 2.5295, Accuracy: 44.29%, LR: 0.223770
+2024-12-31 13:55:36,133 - resnet_50 - INFO - Training - Epoch: 8, Batch: [1100/1635], Loss: 2.5303, Accuracy: 44.31%, LR: 0.225630
+2024-12-31 13:57:25,413 - resnet_50 - INFO - Training - Epoch: 8, Batch: [1200/1635], Loss: 2.5319, Accuracy: 44.27%, LR: 0.227501
+2024-12-31 13:59:14,964 - resnet_50 - INFO - Training - Epoch: 8, Batch: [1300/1635], Loss: 2.5328, Accuracy: 44.27%, LR: 0.229383
+2024-12-31 14:01:04,768 - resnet_50 - INFO - Training - Epoch: 8, Batch: [1400/1635], Loss: 2.5330, Accuracy: 44.27%, LR: 0.231276
+2024-12-31 14:02:53,817 - resnet_50 - INFO - Training - Epoch: 8, Batch: [1500/1635], Loss: 2.5340, Accuracy: 44.24%, LR: 0.233180
+2024-12-31 14:04:42,869 - resnet_50 - INFO - Training - Epoch: 8, Batch: [1600/1635], Loss: 2.5348, Accuracy: 44.25%, LR: 0.235095
+2024-12-31 14:05:21,471 - resnet_50 - INFO - Epoch 8 Summary - Training Loss: 2.5349, Training Accuracy: 44.25%, Time: 1808.62s
+2024-12-31 14:05:21,923 - resnet_50 - INFO - Checkpoint saved - Epoch: 8, Path: checkpoints/resnet_50/model_8.pth
+2024-12-31 14:06:39,112 - resnet_50 - INFO - Validation - Epoch: 9, Loss: 2.6605, Accuracy: 41.19%, Top-5 Accuracy: 67.93%
+2024-12-31 14:08:51,669 - resnet_50 - INFO - Training - Epoch: 9, Batch: [100/1635], Loss: 2.5197, Accuracy: 44.48%, LR: 0.237697
+2024-12-31 14:10:41,250 - resnet_50 - INFO - Training - Epoch: 9, Batch: [200/1635], Loss: 2.5226, Accuracy: 44.36%, LR: 0.239637
+2024-12-31 14:12:30,555 - resnet_50 - INFO - Training - Epoch: 9, Batch: [300/1635], Loss: 2.5201, Accuracy: 44.50%, LR: 0.241588
+2024-12-31 14:14:19,441 - resnet_50 - INFO - Training - Epoch: 9, Batch: [400/1635], Loss: 2.5244, Accuracy: 44.43%, LR: 0.243549
+2024-12-31 14:16:08,989 - resnet_50 - INFO - Training - Epoch: 9, Batch: [500/1635], Loss: 2.5248, Accuracy: 44.42%, LR: 0.245521
+2024-12-31 14:17:58,859 - resnet_50 - INFO - Training - Epoch: 9, Batch: [600/1635], Loss: 2.5265, Accuracy: 44.37%, LR: 0.247504
+2024-12-31 14:19:48,644 - resnet_50 - INFO - Training - Epoch: 9, Batch: [700/1635], Loss: 2.5270, Accuracy: 44.37%, LR: 0.249498
+2024-12-31 14:21:37,847 - resnet_50 - INFO - Training - Epoch: 9, Batch: [800/1635], Loss: 2.5275, Accuracy: 44.37%, LR: 0.251501
+2024-12-31 14:23:27,754 - resnet_50 - INFO - Training - Epoch: 9, Batch: [900/1635], Loss: 2.5289, Accuracy: 44.34%, LR: 0.253516
+2024-12-31 14:25:17,258 - resnet_50 - INFO - Training - Epoch: 9, Batch: [1000/1635], Loss: 2.5293, Accuracy: 44.34%, LR: 0.255540
+2024-12-31 14:27:06,637 - resnet_50 - INFO - Training - Epoch: 9, Batch: [1100/1635], Loss: 2.5315, Accuracy: 44.33%, LR: 0.257575
+2024-12-31 14:28:55,794 - resnet_50 - INFO - Training - Epoch: 9, Batch: [1200/1635], Loss: 2.5317, Accuracy: 44.31%, LR: 0.259621
+2024-12-31 14:30:45,393 - resnet_50 - INFO - Training - Epoch: 9, Batch: [1300/1635], Loss: 2.5322, Accuracy: 44.31%, LR: 0.261676
+2024-12-31 14:32:34,818 - resnet_50 - INFO - Training - Epoch: 9, Batch: [1400/1635], Loss: 2.5324, Accuracy: 44.33%, LR: 0.263742
+2024-12-31 14:34:24,292 - resnet_50 - INFO - Training - Epoch: 9, Batch: [1500/1635], Loss: 2.5331, Accuracy: 44.32%, LR: 0.265818
+2024-12-31 14:36:13,436 - resnet_50 - INFO - Training - Epoch: 9, Batch: [1600/1635], Loss: 2.5341, Accuracy: 44.29%, LR: 0.267904
+2024-12-31 14:36:51,776 - resnet_50 - INFO - Epoch 9 Summary - Training Loss: 2.5341, Training Accuracy: 44.30%, Time: 1812.66s
+2024-12-31 14:36:52,226 - resnet_50 - INFO - Checkpoint saved - Epoch: 9, Path: checkpoints/resnet_50/model_9.pth
+2024-12-31 14:38:09,064 - resnet_50 - INFO - Validation - Epoch: 10, Loss: 2.5858, Accuracy: 42.83%, Top-5 Accuracy: 69.40%
+2024-12-31 14:40:22,770 - resnet_50 - INFO - Training - Epoch: 10, Batch: [100/1635], Loss: 2.5409, Accuracy: 44.05%, LR: 0.270737
+2024-12-31 14:42:12,384 - resnet_50 - INFO - Training - Epoch: 10, Batch: [200/1635], Loss: 2.5330, Accuracy: 44.17%, LR: 0.272846
+2024-12-31 14:44:02,047 - resnet_50 - INFO - Training - Epoch: 10, Batch: [300/1635], Loss: 2.5306, Accuracy: 44.24%, LR: 0.274966
+2024-12-31 14:45:51,487 - resnet_50 - INFO - Training - Epoch: 10, Batch: [400/1635], Loss: 2.5291, Accuracy: 44.28%, LR: 0.277096
+2024-12-31 14:47:39,724 - resnet_50 - INFO - Training - Epoch: 10, Batch: [500/1635], Loss: 2.5275, Accuracy: 44.33%, LR: 0.279235
+2024-12-31 14:49:28,966 - resnet_50 - INFO - Training - Epoch: 10, Batch: [600/1635], Loss: 2.5283, Accuracy: 44.34%, LR: 0.281384
+2024-12-31 14:51:18,425 - resnet_50 - INFO - Training - Epoch: 10, Batch: [700/1635], Loss: 2.5303, Accuracy: 44.31%, LR: 0.283544
+2024-12-31 14:53:07,848 - resnet_50 - INFO - Training - Epoch: 10, Batch: [800/1635], Loss: 2.5343, Accuracy: 44.26%, LR: 0.285712
+2024-12-31 14:54:57,849 - resnet_50 - INFO - Training - Epoch: 10, Batch: [900/1635], Loss: 2.5347, Accuracy: 44.28%, LR: 0.287891
+2024-12-31 14:56:47,476 - resnet_50 - INFO - Training - Epoch: 10, Batch: [1000/1635], Loss: 2.5352, Accuracy: 44.28%, LR: 0.290079
+2024-12-31 14:58:37,442 - resnet_50 - INFO - Training - Epoch: 10, Batch: [1100/1635], Loss: 2.5348, Accuracy: 44.29%, LR: 0.292276
+2024-12-31 15:00:27,135 - resnet_50 - INFO - Training - Epoch: 10, Batch: [1200/1635], Loss: 2.5362, Accuracy: 44.26%, LR: 0.294483
+2024-12-31 15:02:16,367 - resnet_50 - INFO - Training - Epoch: 10, Batch: [1300/1635], Loss: 2.5367, Accuracy: 44.24%, LR: 0.296700
+2024-12-31 15:04:06,261 - resnet_50 - INFO - Training - Epoch: 10, Batch: [1400/1635], Loss: 2.5384, Accuracy: 44.22%, LR: 0.298926
+2024-12-31 15:05:56,094 - resnet_50 - INFO - Training - Epoch: 10, Batch: [1500/1635], Loss: 2.5406, Accuracy: 44.19%, LR: 0.301161
+2024-12-31 15:07:45,581 - resnet_50 - INFO - Training - Epoch: 10, Batch: [1600/1635], Loss: 2.5415, Accuracy: 44.17%, LR: 0.303406
+2024-12-31 15:08:23,997 - resnet_50 - INFO - Epoch 10 Summary - Training Loss: 2.5423, Training Accuracy: 44.16%, Time: 1814.93s
+2024-12-31 15:08:24,454 - resnet_50 - INFO - Checkpoint saved - Epoch: 10, Path: checkpoints/resnet_50/model_10.pth
+2024-12-31 15:09:41,378 - resnet_50 - INFO - Validation - Epoch: 11, Loss: 2.6538, Accuracy: 41.39%, Top-5 Accuracy: 68.06%
+2024-12-31 15:11:54,547 - resnet_50 - INFO - Training - Epoch: 11, Batch: [100/1635], Loss: 2.5515, Accuracy: 43.95%, LR: 0.306451
+2024-12-31 15:13:44,198 - resnet_50 - INFO - Training - Epoch: 11, Batch: [200/1635], Loss: 2.5358, Accuracy: 44.28%, LR: 0.308717
+2024-12-31 15:15:33,990 - resnet_50 - INFO - Training - Epoch: 11, Batch: [300/1635], Loss: 2.5277, Accuracy: 44.41%, LR: 0.310993
+2024-12-31 15:17:23,521 - resnet_50 - INFO - Training - Epoch: 11, Batch: [400/1635], Loss: 2.5344, Accuracy: 44.33%, LR: 0.313277
+2024-12-31 15:19:12,392 - resnet_50 - INFO - Training - Epoch: 11, Batch: [500/1635], Loss: 2.5351, Accuracy: 44.28%, LR: 0.315571
+2024-12-31 15:21:02,107 - resnet_50 - INFO - Training - Epoch: 11, Batch: [600/1635], Loss: 2.5364, Accuracy: 44.26%, LR: 0.317874
+2024-12-31 15:22:51,147 - resnet_50 - INFO - Training - Epoch: 11, Batch: [700/1635], Loss: 2.5391, Accuracy: 44.24%, LR: 0.320185
+2024-12-31 15:24:40,248 - resnet_50 - INFO - Training - Epoch: 11, Batch: [800/1635], Loss: 2.5418, Accuracy: 44.19%, LR: 0.322505
+2024-12-31 15:26:30,267 - resnet_50 - INFO - Training - Epoch: 11, Batch: [900/1635], Loss: 2.5417, Accuracy: 44.20%, LR: 0.324834
+2024-12-31 15:28:20,028 - resnet_50 - INFO - Training - Epoch: 11, Batch: [1000/1635], Loss: 2.5425, Accuracy: 44.18%, LR: 0.327172
+2024-12-31 15:30:09,824 - resnet_50 - INFO - Training - Epoch: 11, Batch: [1100/1635], Loss: 2.5443, Accuracy: 44.14%, LR: 0.329519
+2024-12-31 15:31:59,658 - resnet_50 - INFO - Training - Epoch: 11, Batch: [1200/1635], Loss: 2.5461, Accuracy: 44.11%, LR: 0.331874
+2024-12-31 15:33:49,593 - resnet_50 - INFO - Training - Epoch: 11, Batch: [1300/1635], Loss: 2.5466, Accuracy: 44.10%, LR: 0.334238
+2024-12-31 15:35:38,948 - resnet_50 - INFO - Training - Epoch: 11, Batch: [1400/1635], Loss: 2.5474, Accuracy: 44.07%, LR: 0.336611
+2024-12-31 15:37:28,589 - resnet_50 - INFO - Training - Epoch: 11, Batch: [1500/1635], Loss: 2.5487, Accuracy: 44.05%, LR: 0.338991
+2024-12-31 15:39:18,500 - resnet_50 - INFO - Training - Epoch: 11, Batch: [1600/1635], Loss: 2.5512, Accuracy: 44.02%, LR: 0.341381
+2024-12-31 15:39:57,020 - resnet_50 - INFO - Epoch 11 Summary - Training Loss: 2.5516, Training Accuracy: 44.02%, Time: 1815.64s
+2024-12-31 15:39:57,482 - resnet_50 - INFO - Checkpoint saved - Epoch: 11, Path: checkpoints/resnet_50/model_11.pth
+2024-12-31 15:41:13,985 - resnet_50 - INFO - Validation - Epoch: 12, Loss: 2.5793, Accuracy: 42.31%, Top-5 Accuracy: 68.95%
+2024-12-31 15:43:28,984 - resnet_50 - INFO - Training - Epoch: 12, Batch: [100/1635], Loss: 2.5422, Accuracy: 44.02%, LR: 0.344620
+2024-12-31 15:45:17,908 - resnet_50 - INFO - Training - Epoch: 12, Batch: [200/1635], Loss: 2.5444, Accuracy: 44.05%, LR: 0.347029
+2024-12-31 15:47:07,494 - resnet_50 - INFO - Training - Epoch: 12, Batch: [300/1635], Loss: 2.5438, Accuracy: 44.12%, LR: 0.349446
+2024-12-31 15:48:57,206 - resnet_50 - INFO - Training - Epoch: 12, Batch: [400/1635], Loss: 2.5477, Accuracy: 44.06%, LR: 0.351871
+2024-12-31 15:50:46,640 - resnet_50 - INFO - Training - Epoch: 12, Batch: [500/1635], Loss: 2.5514, Accuracy: 44.01%, LR: 0.354305
+2024-12-31 15:52:35,971 - resnet_50 - INFO - Training - Epoch: 12, Batch: [600/1635], Loss: 2.5525, Accuracy: 44.02%, LR: 0.356746
+2024-12-31 15:54:25,488 - resnet_50 - INFO - Training - Epoch: 12, Batch: [700/1635], Loss: 2.5539, Accuracy: 43.97%, LR: 0.359196
+2024-12-31 15:56:15,246 - resnet_50 - INFO - Training - Epoch: 12, Batch: [800/1635], Loss: 2.5569, Accuracy: 43.90%, LR: 0.361653
+2024-12-31 15:58:04,795 - resnet_50 - INFO - Training - Epoch: 12, Batch: [900/1635], Loss: 2.5585, Accuracy: 43.90%, LR: 0.364119
+2024-12-31 15:59:54,514 - resnet_50 - INFO - Training - Epoch: 12, Batch: [1000/1635], Loss: 2.5602, Accuracy: 43.87%, LR: 0.366592
+2024-12-31 16:01:43,998 - resnet_50 - INFO - Training - Epoch: 12, Batch: [1100/1635], Loss: 2.5615, Accuracy: 43.84%, LR: 0.369073
+2024-12-31 16:03:33,643 - resnet_50 - INFO - Training - Epoch: 12, Batch: [1200/1635], Loss: 2.5626, Accuracy: 43.83%, LR: 0.371562
+2024-12-31 16:05:23,086 - resnet_50 - INFO - Training - Epoch: 12, Batch: [1300/1635], Loss: 2.5653, Accuracy: 43.78%, LR: 0.374059
+2024-12-31 16:07:13,004 - resnet_50 - INFO - Training - Epoch: 12, Batch: [1400/1635], Loss: 2.5665, Accuracy: 43.74%, LR: 0.376563
+2024-12-31 16:09:01,106 - resnet_50 - INFO - Training - Epoch: 12, Batch: [1500/1635], Loss: 2.5680, Accuracy: 43.72%, LR: 0.379075
+2024-12-31 16:10:50,415 - resnet_50 - INFO - Training - Epoch: 12, Batch: [1600/1635], Loss: 2.5696, Accuracy: 43.69%, LR: 0.381594
+2024-12-31 16:11:28,947 - resnet_50 - INFO - Epoch 12 Summary - Training Loss: 2.5696, Training Accuracy: 43.70%, Time: 1814.96s
+2024-12-31 16:11:29,409 - resnet_50 - INFO - Checkpoint saved - Epoch: 12, Path: checkpoints/resnet_50/model_12.pth
+2024-12-31 16:12:45,941 - resnet_50 - INFO - Validation - Epoch: 13, Loss: 2.7035, Accuracy: 40.70%, Top-5 Accuracy: 67.75%
+2024-12-31 16:14:55,896 - resnet_50 - INFO - Training - Epoch: 13, Batch: [100/1635], Loss: 2.5822, Accuracy: 43.51%, LR: 0.385007
+2024-12-31 16:16:44,845 - resnet_50 - INFO - Training - Epoch: 13, Batch: [200/1635], Loss: 2.5669, Accuracy: 43.71%, LR: 0.387543
+2024-12-31 16:18:34,789 - resnet_50 - INFO - Training - Epoch: 13, Batch: [300/1635], Loss: 2.5664, Accuracy: 43.80%, LR: 0.390087
+2024-12-31 16:20:24,393 - resnet_50 - INFO - Training - Epoch: 13, Batch: [400/1635], Loss: 2.5645, Accuracy: 43.82%, LR: 0.392638
+2024-12-31 16:22:13,979 - resnet_50 - INFO - Training - Epoch: 13, Batch: [500/1635], Loss: 2.5661, Accuracy: 43.80%, LR: 0.395197
+2024-12-31 16:24:03,827 - resnet_50 - INFO - Training - Epoch: 13, Batch: [600/1635], Loss: 2.5691, Accuracy: 43.74%, LR: 0.397762
+2024-12-31 16:25:53,608 - resnet_50 - INFO - Training - Epoch: 13, Batch: [700/1635], Loss: 2.5712, Accuracy: 43.70%, LR: 0.400335
+2024-12-31 16:27:43,129 - resnet_50 - INFO - Training - Epoch: 13, Batch: [800/1635], Loss: 2.5718, Accuracy: 43.68%, LR: 0.402915
+2024-12-31 16:29:32,797 - resnet_50 - INFO - Training - Epoch: 13, Batch: [900/1635], Loss: 2.5739, Accuracy: 43.63%, LR: 0.405501
+2024-12-31 16:31:22,534 - resnet_50 - INFO - Training - Epoch: 13, Batch: [1000/1635], Loss: 2.5768, Accuracy: 43.59%, LR: 0.408095
+2024-12-31 16:33:12,125 - resnet_50 - INFO - Training - Epoch: 13, Batch: [1100/1635], Loss: 2.5772, Accuracy: 43.58%, LR: 0.410695
+2024-12-31 16:35:01,443 - resnet_50 - INFO - Training - Epoch: 13, Batch: [1200/1635], Loss: 2.5782, Accuracy: 43.57%, LR: 0.413302
+2024-12-31 16:36:51,020 - resnet_50 - INFO - Training - Epoch: 13, Batch: [1300/1635], Loss: 2.5803, Accuracy: 43.50%, LR: 0.415916
+2024-12-31 16:38:40,413 - resnet_50 - INFO - Training - Epoch: 13, Batch: [1400/1635], Loss: 2.5819, Accuracy: 43.48%, LR: 0.418537
+2024-12-31 16:40:29,858 - resnet_50 - INFO - Training - Epoch: 13, Batch: [1500/1635], Loss: 2.5841, Accuracy: 43.44%, LR: 0.421164
+2024-12-31 16:42:19,381 - resnet_50 - INFO - Training - Epoch: 13, Batch: [1600/1635], Loss: 2.5854, Accuracy: 43.41%, LR: 0.423797
+2024-12-31 16:42:57,804 - resnet_50 - INFO - Epoch 13 Summary - Training Loss: 2.5862, Training Accuracy: 43.40%, Time: 1811.86s
+2024-12-31 16:42:58,256 - resnet_50 - INFO - Checkpoint saved - Epoch: 13, Path: checkpoints/resnet_50/model_13.pth
+2024-12-31 16:44:14,767 - resnet_50 - INFO - Validation - Epoch: 14, Loss: 2.7284, Accuracy: 40.18%, Top-5 Accuracy: 66.79%
+2024-12-31 16:46:24,216 - resnet_50 - INFO - Training - Epoch: 14, Batch: [100/1635], Loss: 2.5938, Accuracy: 43.02%, LR: 0.427363
+2024-12-31 16:48:13,419 - resnet_50 - INFO - Training - Epoch: 14, Batch: [200/1635], Loss: 2.5844, Accuracy: 43.28%, LR: 0.430012
+2024-12-31 16:50:02,425 - resnet_50 - INFO - Training - Epoch: 14, Batch: [300/1635], Loss: 2.5833, Accuracy: 43.34%, LR: 0.432667
+2024-12-31 16:51:52,346 - resnet_50 - INFO - Training - Epoch: 14, Batch: [400/1635], Loss: 2.5863, Accuracy: 43.34%, LR: 0.435328
+2024-12-31 16:53:41,645 - resnet_50 - INFO - Training - Epoch: 14, Batch: [500/1635], Loss: 2.5855, Accuracy: 43.39%, LR: 0.437995
+2024-12-31 16:55:30,140 - resnet_50 - INFO - Training - Epoch: 14, Batch: [600/1635], Loss: 2.5865, Accuracy: 43.39%, LR: 0.440669
+2024-12-31 16:57:19,388 - resnet_50 - INFO - Training - Epoch: 14, Batch: [700/1635], Loss: 2.5864, Accuracy: 43.38%, LR: 0.443349
+2024-12-31 16:59:09,223 - resnet_50 - INFO - Training - Epoch: 14, Batch: [800/1635], Loss: 2.5893, Accuracy: 43.33%, LR: 0.446035
+2024-12-31 17:00:58,508 - resnet_50 - INFO - Training - Epoch: 14, Batch: [900/1635], Loss: 2.5915, Accuracy: 43.31%, LR: 0.448726
+2024-12-31 17:02:47,659 - resnet_50 - INFO - Training - Epoch: 14, Batch: [1000/1635], Loss: 2.5935, Accuracy: 43.27%, LR: 0.451424
+2024-12-31 17:04:37,132 - resnet_50 - INFO - Training - Epoch: 14, Batch: [1100/1635], Loss: 2.5948, Accuracy: 43.26%, LR: 0.454128
+2024-12-31 17:06:26,432 - resnet_50 - INFO - Training - Epoch: 14, Batch: [1200/1635], Loss: 2.5959, Accuracy: 43.22%, LR: 0.456837
+2024-12-31 17:08:15,300 - resnet_50 - INFO - Training - Epoch: 14, Batch: [1300/1635], Loss: 2.5971, Accuracy: 43.21%, LR: 0.459552
+2024-12-31 17:10:04,619 - resnet_50 - INFO - Training - Epoch: 14, Batch: [1400/1635], Loss: 2.5981, Accuracy: 43.21%, LR: 0.462272
+2024-12-31 17:11:54,566 - resnet_50 - INFO - Training - Epoch: 14, Batch: [1500/1635], Loss: 2.5990, Accuracy: 43.19%, LR: 0.464999
+2024-12-31 17:13:44,331 - resnet_50 - INFO - Training - Epoch: 14, Batch: [1600/1635], Loss: 2.6005, Accuracy: 43.16%, LR: 0.467730
+2024-12-31 17:14:22,808 - resnet_50 - INFO - Epoch 14 Summary - Training Loss: 2.6016, Training Accuracy: 43.14%, Time: 1808.04s
+2024-12-31 17:14:23,267 - resnet_50 - INFO - Checkpoint saved - Epoch: 14, Path: checkpoints/resnet_50/model_14.pth
+2024-12-31 17:15:39,578 - resnet_50 - INFO - Validation - Epoch: 15, Loss: 2.7306, Accuracy: 40.12%, Top-5 Accuracy: 66.84%
+2024-12-31 17:17:48,728 - resnet_50 - INFO - Training - Epoch: 15, Batch: [100/1635], Loss: 2.6011, Accuracy: 43.26%, LR: 0.471427
+2024-12-31 17:19:37,670 - resnet_50 - INFO - Training - Epoch: 15, Batch: [200/1635], Loss: 2.5848, Accuracy: 43.38%, LR: 0.474171
+2024-12-31 17:21:27,337 - resnet_50 - INFO - Training - Epoch: 15, Batch: [300/1635], Loss: 2.5918, Accuracy: 43.18%, LR: 0.476921

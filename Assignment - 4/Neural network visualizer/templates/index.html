@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MNIST Training Progress</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .plot-container {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MNIST Training Progress</h1>
+        <div class="plot-container" id="combined-plot"></div>
+        <div id="current-stats">
+            <h2>Current Training Stats</h2>
+            <p>Epoch: <span id="epoch">-</span></p>
+            <p>Current Loss: <span id="loss">-</span></p>
+            <p>Average Loss: <span id="avg-loss">-</span></p>
+            <p>Training Accuracy: <span id="train-accuracy">-</span></p>
+            <p>Test Accuracy: <span id="test-accuracy">-</span></p>
+        </div>
+    </div>
+
+    <script>
+        let lossData = {
+            x: [],
+            y: [],
+            type: 'scatter',
+            name: 'Average Loss',
+            mode: 'lines+markers',
+            line: {
+                color: '#1f77b4'
+            },
+            yaxis: 'y'
+        };
+
+        let trainAccData = {
+            x: [],
+            y: [],
+            type: 'scatter',
+            name: 'Training Accuracy',
+            mode: 'lines+markers',
+            line: {
+                color: '#2ca02c'
+            },
+            yaxis: 'y2'
+        };
+
+        let testAccData = {
+            x: [],
+            y: [],
+            type: 'scatter',
+            name: 'Test Accuracy',
+            mode: 'lines+markers',
+            line: {
+                color: '#ff7f0e'
+            },
+            yaxis: 'y2'
+        };
+
+        let layout = {
+            title: 'Training Progress Over Epochs',
+            xaxis: { 
+                title: 'Epoch',
+                dtick: 0.1,
+                range: [0, 1]
+            },
+            yaxis: { 
+                title: 'Loss',
+                titlefont: {color: '#1f77b4'},
+                tickfont: {color: '#1f77b4'}
+            },
+            yaxis2: {
+                title: 'Accuracy (%)',
+                titlefont: {color: '#2ca02c'},
+                tickfont: {color: '#2ca02c'},
+                overlaying: 'y',
+                side: 'right',
+                range: [0, 100]
+            },
+            showlegend: true,
+            legend: {
+                x: 1.1,
+                y: 1
+            }
+        };
+
+        Plotly.newPlot('combined-plot', [lossData, trainAccData, testAccData], layout);
+
+        let epochData = new Set();
+        let maxEpochSeen = 0;
+
+        function updateProgress() {
+            fetch('/get_progress')
+                .then(response => response.json())
+                .then(data => {
+                    if (!data.error) {
+                        document.getElementById('epoch').textContent = data.epoch.toFixed(2);
+                        document.getElementById('loss').textContent = data.loss.toFixed(4);
+                        document.getElementById('avg-loss').textContent = data.avg_loss.toFixed(4);
+                        document.getElementById('train-accuracy').textContent = data.accuracy.toFixed(2) + '%';
+                        document.getElementById('test-accuracy').textContent = data.test_accuracy.toFixed(2) + '%';
+
+                        // Update plot with sub-epoch data
+                        Plotly.extendTraces('combined-plot', {
+                            x: [[data.epoch], [data.epoch], [data.epoch]],
+                            y: [[data.avg_loss], [data.accuracy], [data.test_accuracy]]
+                        }, [0, 1, 2]);
+
+                        // Dynamically adjust x-axis range
+                        if (data.epoch > maxEpochSeen) {
+                            maxEpochSeen = data.epoch;
+                            let newRange;
+                            if (maxEpochSeen <= 1) {
+                                newRange = [0, 1];
+                            } else if (maxEpochSeen <= 2) {
+                                newRange = [0, 2];
+                            } else {
+                                newRange = [0, Math.ceil(maxEpochSeen)];
+                            }
+                            
+                            Plotly.relayout('combined-plot', {
+                                'xaxis.range': newRange
+                            });
+                        }
+                    }
+                });
+        }
+
+        // Update more frequently (every 500ms) to catch sub-epoch updates
+        setInterval(updateProgress, 500);
+    </script>
+</body>
+</html> 

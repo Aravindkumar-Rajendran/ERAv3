@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calendar Assistant - Settings</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .options-container {
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .option-group {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .option-group h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #1a73e8;
+            font-size: 18px;
+        }
+        .option-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            color: #555;
+        }
+        .option-group input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .option-group select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+        .save-button {
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        .save-button:hover {
+            background-color: #0d62d1;
+        }
+    </style>
+</head>
+<body>
+    <div class="options-container">
+        <h1>Calendar Assistant Settings</h1>
+        
+        <div class="option-group">
+            <h2>API Configuration</h2>
+            <label for="apiUrl">Backend API URL:</label>
+            <input type="text" id="apiUrl" placeholder="http://localhost:8000">
+        </div>
+
+        <div class="option-group">
+            <h2>Calendar Settings</h2>
+            <label for="defaultDuration">Default Meeting Duration (minutes):</label>
+            <select id="defaultDuration">
+                <option value="15">15 minutes</option>
+                <option value="30" selected>30 minutes</option>
+                <option value="45">45 minutes</option>
+                <option value="60">1 hour</option>
+                <option value="90">1.5 hours</option>
+                <option value="120">2 hours</option>
+            </select>
+            
+            <label for="defaultReminder">Default Reminder Time:</label>
+            <select id="defaultReminder">
+                <option value="0">No reminder</option>
+                <option value="10">10 minutes before</option>
+                <option value="30" selected>30 minutes before</option>
+                <option value="60">1 hour before</option>
+                <option value="1440">1 day before</option>
+            </select>
+        </div>
+
+        <div class="option-group">
+            <h2>Behavior Settings</h2>
+            <label>
+                <input type="checkbox" id="autoClearInput" checked>
+                Clear input after event creation
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id="confirmBeforeAction" checked>
+                Confirm before making calendar changes
+            </label>
+        </div>
+
+        <button id="saveButton" class="save-button">Save Settings</button>
+    </div>
+    <script src="options.js"></script>
+</body>
+</html> 

@@ -1,0 +1,6 @@
+[submodule "TamilBPE-10k-Tokenizer"]
+	path = TamilBPE-10k-Tokenizer
+	url = https://huggingface.co/spaces/AravindKumarRajendran/TamilBPE-10k-Tokenizer.git
+[submodule "Huggingface"]
+	path = Huggingface
+	url = https://huggingface.co/spaces/AravindKumarRajendran/TamilBPE-10k-Tokenizer.git

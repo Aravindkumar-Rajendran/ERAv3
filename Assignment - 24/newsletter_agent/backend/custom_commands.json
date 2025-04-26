@@ -1,0 +1,41 @@
+{
+    "commands": [
+        {
+            "name": "login",
+            "description": "Log in to a website",
+            "parameters": {
+                "username": "string",
+                "password": "string"
+            },
+            "actions": [
+                {
+                    "type": "fill",
+                    "selector": "input[type='text']",
+                    "value": "{username}"
+                },
+                {
+                    "type": "fill",
+                    "selector": "input[type='password']",
+                    "value": "{password}"
+                },
+                {
+                    "type": "click",
+                    "selector": "button[type='submit']"
+                }
+            ]
+        },
+        {
+            "name": "scrape_table",
+            "description": "Extract data from a table",
+            "parameters": {
+                "table_selector": "string"
+            },
+            "actions": [
+                {
+                    "type": "extract_table",
+                    "selector": "{table_selector}"
+                }
+            ]
+        }
+    ]
+} 
