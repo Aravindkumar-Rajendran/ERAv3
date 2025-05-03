@@ -1,9 +1,40 @@
 # ERAI v0 - AI Assistant for learning AI
 
-Models used - Ollama llama3.1:8b and nomic-text-embed
+Agentic RAG for Learning AI built using LlamaIndex and Ollama for answering questions about AI with ERAv3 course content as context.
 
-Agentic RAG for Learning AI built using LlamaIndex and Ollama for answering questions about AI with ERAv3 course as context.
+Models used:  
+**Agent**: llama3.1:8b  
+**Embeddings**: nomic-text-embed  
 
+Tools:
+- **Search_tool**: Retrieve context from LlamaIndex
+- **Multiply**: sample math tool 
+
+We can add more tools, for simplicity and checking RAG workflow, I hae just used above two tools. 
+
+### Installation
+
+```uv venv .venv```
+
+`activate .venv`
+
+```uv pip install -r requirements.txt```
+
+### Run
+
+1. Get the index - ChromaDB (not in git)
+2. `uv run streamlit run streamlit_app.py`
+
+
+
+
+
+
+
+
+
+
+### Assignment details:
 
 Build a Chrome plugin that:
 
