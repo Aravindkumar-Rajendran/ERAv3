@@ -1,0 +1,8 @@
+markitdown[pdf]
+youtube-transcript-api
+streamlit
+llama-index 
+llama-index-llms-ollama 
+llama-index-embeddings-ollama 
+llama-index-vector-stores-chroma
+chromadb
